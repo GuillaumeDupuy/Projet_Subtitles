@@ -8,6 +8,11 @@ namespace Projet_Subtitles
 {
     class Program
     {
-        
+        static void Main(string[] args)
+        {
+            /*LectureFichier f = new LectureFichier();*/
+
+            f.ReadFile(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\subtitles.txt");
+        }
     }
 }

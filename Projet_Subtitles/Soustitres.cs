@@ -17,7 +17,7 @@ namespace Projet_Subtitles
         {
             numberSubtitle = number;
             subtitle = sub;
-            Temps(timer);
+            /*Temps(timer);*/
         }
 
     }
