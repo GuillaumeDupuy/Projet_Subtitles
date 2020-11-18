@@ -48,7 +48,7 @@ namespace Projet_Subtitle
         private void Chemin_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog boite = new Microsoft.Win32.OpenFileDialog();
-            boite.Filter = "Fichiers Texte (*.srt;)|*.srt";
+            boite.Filter = "Fichiers Texte (*.srt; *.txt)|*.srt; *.txt";
             boite.Multiselect = false;
             boite.FilterIndex = 1;
             boite.ShowDialog();
