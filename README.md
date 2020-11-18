@@ -18,10 +18,10 @@ Les boutons ne s'affichent pas et si ils s'afficheraient, ils ne sont pas foncti
 # Aide
  
 Lecteur audio/ video : https://docs.microsoft.com/fr-fr/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer
-                       https://www.youtube.com/watch?v=_NPQPk_FqSk&ab_channel=DailyCours
+https://www.youtube.com/watch?v=_NPQPk_FqSk&ab_channel=DailyCours
 
 WPF : https://docs.microsoft.com/fr-fr/dotnet/desktop/wpf/getting-started/walkthrough-my-first-wpf-desktop-application?view=netframeworkdesktop-4.8
-      https://www.wpf-tutorial.com/fr/100/audio-video/lecture-de-video/
+https://www.wpf-tutorial.com/fr/100/audio-video/lecture-de-video/
 
 Sous-titres : https://subscene.com/
-              https://www.opensubtitles.org/fr
+https://www.opensubtitles.org/fr
