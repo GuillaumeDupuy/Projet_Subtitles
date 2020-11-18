@@ -1,0 +1,14 @@
+c:\users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\bin\Debug\LecteurVideo.exe.config
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.csprojResolveAssemblyReference.cache
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\MainWindow.g.cs
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\App.g.cs
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo_MarkupCompile.cache
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo_MarkupCompile.lref
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\bin\Debug\LecteurVideo.exe
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\bin\Debug\LecteurVideo.pdb
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\MainWindow.baml
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.g.resources
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.Properties.Resources.resources
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.csproj.GenerateResource.Cache
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.exe
+C:\Users\diego\onedrive\documents\visual studio 2015\Projects\LecteurVideo\LecteurVideo\obj\Debug\LecteurVideo.pdb
