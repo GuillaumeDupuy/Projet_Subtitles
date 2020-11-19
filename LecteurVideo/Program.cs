@@ -13,6 +13,8 @@ namespace Projet_Subtitle
     {
         public string chemin;
         public List<Subtitle> sub;
+
+        //fonction principal, récupere les sous-titres stocker selon leurs temps et les affiche
         public Program(TextBlock T, string Chemin)
         {
             chemin = Chemin;
@@ -26,6 +28,7 @@ namespace Projet_Subtitle
             string[] time = new string[2];
             string[] sepatator = new string[] { "-->" };
             string sub = "";
+            //fonction pour stocker les sous-titres selon le coupage du temps des sous-titres
             using (StreamReader Ligne = new StreamReader(chemin))
             {
                 Regex test = new Regex("-->");
@@ -57,6 +60,7 @@ namespace Projet_Subtitle
             return subi;
         }
 
+        //affichage des sous-titres selon le timeur 
         public async Task Affichage(List<Subtitle> subti, TextBlock T)
         {
             await Task.Delay(subti[0].timeStart);
@@ -76,6 +80,7 @@ namespace Projet_Subtitle
 
 /*class Program
     {
+        //fonction pour récuperer les sous-titres
         static void Main(string[] args)
         {
             SubtitleFile f = new SubtitleFile();
