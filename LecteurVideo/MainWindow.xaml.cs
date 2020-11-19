@@ -29,6 +29,7 @@ namespace Projet_Subtitle
             button1.IsEnabled = false;
         }
 
+        //fonction qui permet de parcourir l'ordinateur pour récuperer le film
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog boite = new Microsoft.Win32.OpenFileDialog();
@@ -45,6 +46,7 @@ namespace Projet_Subtitle
             }
         }
 
+        //fonction qui permet de parcourir l'ordinateur pour récuperer les sous-titres
         private void Chemin_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog boite = new Microsoft.Win32.OpenFileDialog();
@@ -59,6 +61,7 @@ namespace Projet_Subtitle
             }
         }
 
+        //fonction du bouton stop
         /*private void StopButton_Click(object sender, RoutedEventArgs e)
         {
             media.LoadedBehavior = MediaState.Stop;
@@ -70,12 +73,14 @@ namespace Projet_Subtitle
 
         }
 
+        //fonction du bouton pause
         private void PauseButton_Click(object sender, RoutedEventArgs e)
         {
             media.LoadedBehavior = MediaState.Pause;
             pause.Reset();
         }
 
+        //fonction du slider volume
         private void ChangeMediaVolume(object sender, RoutedPropertyChangedEventArgs<double> args)
         {
             media.Volume = (double)volumeSlider.Value;

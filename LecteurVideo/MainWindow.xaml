@@ -6,24 +6,27 @@
         xmlns:local="clr-namespace:LecteurVideo"
         mc:Ignorable="d"
         Title="Lecteur Vidéo/Sous-Titres" Height="350" Width="525">
+    <!-- couleur du background, ainsi que les élements dans la fenetre-->
     <Grid Background="#020202">
-
+        <!-- création des bordures -->
         <Border x:Name="Bord" BorderBrush="#FFFDFD" CornerRadius="5" Width="406" Height="247" BorderThickness="5" Background="Black" Margin="37.715,37,41,37" Grid.Column="1">
             <MediaElement x:Name="mediaElement" HorizontalAlignment="Center" Height="247"  VerticalAlignment="Center" Width="406"/>
         </Border>
-
-        
-
+        <!-- bou -->
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="89.715,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="276" FontWeight="Normal" Foreground="#FFFCFCFC" FontSize="15" Grid.Column="1" />
+        <!-- bouton pour fermer, réduire et redimensiomer la fenetre -->
         <Button Name="Close" Click="self.close()" Margin="498,-21,3,323" RenderTransformOrigin="0.767,0.267">X</Button>
         <Button Name = "Minimize" Click="MinimizeButton_Click" Margin="478,-21,23,323">◻️</Button>
         <Button Name = "Semiclose" Click="SemicloseButton_Click" Margin="457,-21,44,323">_</Button>
+        <!-- bouton play, pause, stop -->
         <Button Name="PlayButton" Click="PlayButton_Click" Margin="60,287,425,5" RenderTransformOrigin="0.5,0.31">Play</Button>
         <Button Name="PauseButton" Click="PauseButton_Click" Margin="90,287,395,5" RenderTransformOrigin="-6.39,2.29" >Pause</Button>
         <Button Name="StopButton" Click="StopButton_Click" Margin="124,287,361,5">Stop</Button>
+        <!-- slider pour changer le volume de l'utilisateur -->
         <Slider Name="volumeSlider" VerticalAlignment="Center" ValueChanged="ChangeMediaVolume"  
        Minimum="0" Maximum="1" Value="0.5" Height="27" Margin="332,292,44,2" />
-        <Button x:Name="button1" Content="Parcourir" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="75" Click="button1_Click" Margin="202.715,0,207,10" Background="#FFFDFD" FontFamily="Showcard Gothic" Foreground="Black" />
+        <!-- bouton pour récuperer les chemins du film et des sous-titres -->
+        <Button x:Name="button1" Content="Film" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="75" Click="button1_Click" Margin="202.715,0,207,10" Background="#FFFDFD" FontFamily="Showcard Gothic" Foreground="Black" />
         <Button x:Name="Chemin" Content="Sous-Titres" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="75" Background="#FFFDFD" Foreground="Black" FontFamily="Showcard Gothic" FontSize="10" Click="Chemin_Click"/>
     </Grid>
 </Window>
