@@ -12,6 +12,7 @@ namespace Projet_Subtitle
         public int timeStart;
         public int timeEnd;
 
+        //définition des élémenets pour le temps des sous-titres
         public Subtitle(string SUBTITLE, int TIME, int End)
         {
             subt = SUBTITLE;
@@ -27,6 +28,7 @@ namespace Projet_Subtitle
        public TimeSpan EndTime;
        public string subtitle;
 
+       //définition des élémenets pour le temps des sous-titres
        public SubTitle(int number, string timer, string sub)
        {
            numberSubtitle = number;
@@ -34,6 +36,7 @@ namespace Projet_Subtitle
            ParseTimer(timer);
        }
 
+       //permet de couper le temps des sous-titres en jour, heures, secondes
        private void ParseTimer(string timer)
        {
            Regex r = new Regex(@"\d{2}:\d{2}:\d{1,2},\d{3} ?--> ?\d{2}:\d{2}:\d{1,2},\d{3}");
@@ -47,6 +50,7 @@ namespace Projet_Subtitle
            }
        }
 
+       //récuperer le temps actuel des sous-titres
        private TimeSpan GetTimer(string timer)
        {
            char[] charsplitOn = { ':', ',' };
@@ -55,6 +59,7 @@ namespace Projet_Subtitle
            return new TimeSpan(0, Int32.Parse(splitTimer[0]), Int32.Parse(splitTimer[1]), Int32.Parse(splitTimer[2]), Int32.Parse(splitTimer[3]));
        }
 
+       //mettre les sous-titres au temps définis
        public async Task AddSubTitle()
        {
            await TimeToAdd();
@@ -62,7 +67,8 @@ namespace Projet_Subtitle
            await TimeToDisplay();
            Console.Clear();
        }
-
+ 
+       //fonction temps 
        public async Task TimeToAdd()
        {
            await Task.Delay(StartTime);
