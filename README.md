@@ -16,7 +16,9 @@ Les étapes pour lancer le projet :
 Les boutons ne s'affichent pas et si ils s'afficheraient, ils ne sont pas fonctionnels, le code est en commentaires
 
 # Aide
- 
+
+tuto général : https://www.youtube.com/watch?v=Vjldip84CXQ&t=2377s&ab_channel=AngelSix
+
 Lecteur audio/ video : https://docs.microsoft.com/fr-fr/windows/uwp/audio-video-camera/play-audio-and-video-with-mediaplayer
 https://www.youtube.com/watch?v=_NPQPk_FqSk&ab_channel=DailyCours
 
