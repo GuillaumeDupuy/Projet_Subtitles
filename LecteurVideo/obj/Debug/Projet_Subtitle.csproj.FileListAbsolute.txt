@@ -21,3 +21,6 @@ C:\Users\guill\OneDrive\Documents\Ynov\B2\Architecture Log\projet_final\Projet_S
 C:\Users\guill\OneDrive\Documents\Ynov\B2\Architecture Log\projet_final\Projet_Subtitles\LecteurVideo\obj\Debug\Projet_Subtitle.csprojAssemblyReference.cache
 C:\Users\guill\OneDrive\Documents\Ynov\B2\Architecture Log\projet_final\Projet_Subtitles\LecteurVideo\obj\Debug\App.g.cs
 C:\Users\guill\OneDrive\Documents\Ynov\B2\Architecture Log\projet_final\Projet_Subtitles\LecteurVideo\obj\Debug\Projet_Subtitle_MarkupCompile.cache
+C:\Users\guill\Desktop\Ynov\Projet_Subtitles\LecteurVideo\obj\Debug\Projet_Subtitle.csproj.AssemblyReference.cache
+C:\Users\guill\Desktop\Ynov\Projet_Subtitles\LecteurVideo\obj\Debug\App.g.cs
+C:\Users\guill\Desktop\Ynov\Projet_Subtitles\LecteurVideo\obj\Debug\Projet_Subtitle_MarkupCompile.cache
